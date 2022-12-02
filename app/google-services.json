@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "194009282855",
+    "firebase_url": "https://stay-tuned-with-ilia-91640.firebaseio.com",
+    "project_id": "stay-tuned-with-ilia-91640",
+    "storage_bucket": "stay-tuned-with-ilia-91640.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194009282855:android:89420819a752a265015102",
+        "android_client_info": {
+          "package_name": "com.example.keepb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194009282855-b27ie76kmnltlrc54v8qhkmdd29qeon8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.keepb",
+            "certificate_hash": "2d5a2792832ccae4e2a2fc64eb8919ccd463b291"
+          }
+        },
+        {
+          "client_id": "194009282855-841itinobrk9b5rnjc1mookhp0hsh790.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOhGsMDi-bi4Wq8MViUBpYhEyoO10LAQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194009282855-841itinobrk9b5rnjc1mookhp0hsh790.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpImera"
+    android:background="@color/Background"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="-26dp">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Background"
+
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="70dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="No Ημέρας"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="30dp" />
+
+
+                <EditText
+                    android:id="@+id/NoImerasu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+
+
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="30dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/rikghtTime"
+                android:layout_width="280dp"
+                android:layout_height="296dp"
+                android:layout_marginLeft="70dp"
+
+                android:background="@drawable/listframe2"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Έφαγα στη σωστή ώρα :"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18dp" />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="50dp"
+
+                        android:text="Πρωινό"
+                        android:textColor="@color/textColorPrimary"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                    <Switch
+                        android:id="@+id/breakTimeu"
+                        android:layout_width="60dp"
+                        android:layout_height="24dp"
+
+
+                        android:checked="false" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="50dp"
+
+                        android:text="Δεκατιανό"
+                        android:textColor="@color/textColorPrimary"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                    <Switch
+                        android:id="@+id/decTimeu"
+                        android:layout_width="60dp"
+                        android:layout_height="24dp"
+                        android:checked="false" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="50dp"
+
+                        android:text="Μεσημεριανό"
+                        android:textColor="@color/textColorPrimary"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                    <Switch
+                        android:id="@+id/mesiTimeu"
+                        android:layout_width="60dp"
+                        android:layout_height="24dp"
+                        android:checked="false" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="50dp"
+
+                        android:text="Απογευματινό"
+                        android:textColor="@color/textColorPrimary"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                    <Switch
+                        android:id="@+id/apogTimeu"
+                        android:layout_width="60dp"
+                        android:layout_height="24dp"
+                        android:checked="false" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="50dp"
+
+                        android:text="Βραδυνό"
+                        android:textColor="@color/textColorPrimary"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                    <Switch
+                        android:id="@+id/launchTimeu"
+                        android:layout_width="60dp"
+                        android:layout_height="24dp"
+                        android:checked="false" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rightWhat"
+                android:layout_width="284dp"
+                android:layout_height="287dp"
+                android:layout_marginLeft="70dp"
+
+                android:background="@drawable/listframe2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="216dp"
+                    android:layout_height="39dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Έφαγα αυτο που πρεπει :"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                  >
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="50dp"
+
+                        android:text="Πρωινό"
+                        android:textColor="@color/textColorPrimary"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                    <Switch
+                        android:id="@+id/breakwhatu"
+                        android:layout_width="60dp"
+                        android:layout_height="24dp"
+
+
+                        android:checked="false" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="50dp"
+
+                        android:text="Δεκατιανό"
+                        android:textColor="@color/textColorPrimary"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                    <Switch
+                        android:id="@+id/decwhatu"
+                        android:layout_width="60dp"
+                        android:layout_height="24dp"
+                        android:checked="false" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="50dp"
+
+                        android:text="Μεσημεριανό"
+                        android:textColor="@color/textColorPrimary"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                    <Switch
+                        android:id="@+id/mesiwhatu"
+                        android:layout_width="60dp"
+                        android:layout_height="24dp"
+                        android:checked="false" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="50dp"
+
+                        android:text="Απογευματινό"
+                        android:textColor="@color/textColorPrimary"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                    <Switch
+                        android:id="@+id/apogwhatu"
+                        android:layout_width="60dp"
+                        android:layout_height="24dp"
+                        android:checked="false" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="50dp"
+
+                        android:text="Βραδυνό"
+                        android:textColor="@color/textColorPrimary"
+                        android:textSize="20dp">
+
+                    </TextView>
+
+                    <Switch
+                        android:id="@+id/launchwhatu"
+                        android:layout_width="60dp"
+                        android:layout_height="24dp"
+                        android:checked="false" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/waterlayout"
+                android:layout_width="match_parent"
+                android:layout_height="143dp"
+
+                android:background="@drawable/plaisioextras"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+
+                    android:text="Λίτρα νερού που ήπια:"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="32dp">
+
+
+                </TextView>
+
+                <RatingBar
+                    android:id="@+id/ratingBarwateru"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:numStars="5"
+                    android:progressDrawable="@drawable/customwater"
+                    android:stepSize="0.5" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/alcoollayout"
+                android:layout_width="match_parent"
+                android:layout_height="114dp"
+
+                android:background="@drawable/plaisioextras"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+
+                    android:text="Αλκοολ"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="32dp">
+
+                </TextView>
+
+                <CheckBox
+                    android:id="@+id/alcoolbtnu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="170dp"
+                    android:layout_marginTop="10dp"
+                    android:button="@drawable/alcoolbutton" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cocalayout"
+                android:layout_width="match_parent"
+                android:layout_height="114dp"
+
+
+                android:background="@drawable/plaisioextras"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+
+                    android:text="Αναψυκτικά"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="32dp">
+
+                </TextView>
+
+                <CheckBox
+                    android:id="@+id/cocabtnu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="86dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="10dp"
+                    android:button="@drawable/cocabutton" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/gymlayout"
+                android:layout_width="match_parent"
+                android:layout_height="114dp"
+
+                android:layout_below="@+id/alcoollayout"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/plaisioextras"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+
+                    android:text="Γυμναστική"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="32dp">
+
+                </TextView>
+
+                <CheckBox
+                    android:id="@+id/gymbtnu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="10dp"
+                    android:button="@drawable/gymbutton" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ypnoslayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/plaisioextras"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+
+                    android:text="Yπνος"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="32dp">
+
+
+                </TextView>
+
+                <RatingBar
+                    android:id="@+id/ratingBarYpnosu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:numStars="5"
+                    android:progressDrawable="@drawable/customypnos"
+                    android:stepSize="1" />
+
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/epipleonu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/plaisioextras"
+
+                android:hint="Έφαγα επιπλέον:"
+                android:inputType="textMultiLine"
+
+                android:paddingLeft="20dp"
+                android:paddingTop="2dp"
+                android:textColor="@color/textColorPrimary"
+                android:textColorHint="@color/textColorPrimary"
+                android:textSize="20dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="72dp">
+                <Button
+                    android:id="@+id/savemerau"
+                    android:layout_width="191dp"
+                    android:layout_height="72dp"
+
+                    android:background="@drawable/savebtn" />
+
+                <Button
+                    android:id="@+id/telosmerau"
+                    android:layout_width="191dp"
+                    android:layout_height="72dp"
+
+                    android:background="@drawable/koumpitelos"
+                    android:text="τελος ημερας" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
+    tools:context=".statistika">
+
+    <TextView
+        android:id="@+id/imeressynolo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginTop="68dp"
+        android:hint="SynoloHmervn"
+        android:textColor="@color/textColorPrimary"
+        android:textColorHint="@color/textColorPrimary"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <ScrollView
+        android:id="@+id/statlayout"
+        android:layout_width="326dp"
+        android:layout_height="215dp"
+        android:layout_below="@+id/imeressynolo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="116dp"
+        android:background="@drawable/listframe2"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+
+        android:paddingRight="10dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imeressynolo"
+        app:layout_constraintVertical_bias="0.016">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="389dp"
+
+
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+
+            android:paddingRight="10dp"
+            android:paddingBottom="20dp">
+
+
+            <TextView
+                android:id="@+id/statbt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:textColor="@color/textColorPrimary"
+                android:textColorHint="@color/textColorPrimary"
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/statbw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:textColor="@color/textColorPrimary"
+                android:textColorHint="@color/textColorPrimary"
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/statdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:textColor="@color/textColorPrimary"
+                android:textColorHint="@color/textColorPrimary"
+               >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/statdw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:textColor="@color/textColorPrimary"
+                android:textColorHint="@color/textColorPrimary"
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/statmt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:textColor="@color/textColorPrimary"
+                android:textColorHint="@color/textColorPrimary"
+               >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/statmw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:textColor="@color/textColorPrimary"
+                android:textColorHint="@color/textColorPrimary"
+               >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/statat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/textColorPrimary"
+                android:textColorHint="@color/textColorPrimary"
+               >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/stataw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:textColor="@color/textColorPrimary"
+                android:textColorHint="@color/textColorPrimary"
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/statlt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:textColor="@color/textColorPrimary"
+                android:textColorHint="@color/textColorPrimary"
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/statlw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:textColor="@color/textColorPrimary"
+                android:textColorHint="@color/textColorPrimary"
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/statwater"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:textColor="@color/textColorPrimary"
+                android:textColorHint="@color/textColorPrimary"
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/statalcool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:textColor="@color/textColorPrimary"
+                android:textColorHint="@color/textColorPrimary"
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/statgym"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:textColor="@color/textColorPrimary"
+                android:textColorHint="@color/textColorPrimary"
+               >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/statcoca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:textColor="@color/textColorPrimary"
+                android:textColorHint="@color/textColorPrimary"
+              >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/statypnos"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:textColor="@color/textColorPrimary"
+               >
+
+            </TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@color/textColorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/Homestat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/statlayout">
+
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/bargraph"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+
+            android:layout_marginTop="5dp"></com.github.mikephil.charting.charts.BarChart>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/Homestat"
+        android:layout_width="75dp"
+        android:layout_height="69dp"
+
+
+        android:layout_below="@+id/statlayout"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prefs"
+    android:background="@color/Background">
+
+
+    <LinearLayout
+        android:id="@+id/prwino"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/wrabreak"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/plaisioprefs"
+            android:hint="ΩΡΑ ΠΡΩΙΝΟΥ:"
+            android:paddingLeft="15dp"
+            android:paddingTop="17dp"
+            android:textColor="@color/textColorPrimary"
+            android:textColorHint="@color/textColorPrimary"
+            android:textSize="15dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/koubiprwinou"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/koympismall"
+
+            android:textColor="@color/textColorPrimary"
+            android:textSize="12dp">
+
+        </Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/decatiano"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prwino"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/wradec"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/plaisioprefs"
+            android:hint="ΩΡΑ ΔΕΚΑΤΙΑΝΟΥ:"
+            android:paddingLeft="15dp"
+            android:paddingTop="17dp"
+            android:textColor="@color/textColorPrimary"
+            android:textColorHint="@color/textColorPrimary"
+            android:textSize="15dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/koubidec"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/koympismall"
+
+            android:textColor="@color/textColorPrimary"
+            android:textSize="12dp">
+
+        </Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mesimeriano"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/decatiano"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/wramesi"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/plaisioprefs"
+            android:paddingTop="17dp"
+            android:paddingLeft="15dp"
+            android:hint="ΩΡΑ ΜΕΣΗΜΕΡΙΑΝΟΥ:"
+            android:textColor="@color/textColorPrimary"
+            android:textColorHint="@color/textColorPrimary"
+            android:textSize="15dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/koubimesi"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/koympismall"
+
+            android:textColor="@color/textColorPrimary"
+            android:textSize="12dp">
+
+        </Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/apogeymatino"
+        android:layout_width="310dp"
+        android:layout_height="72dp"
+        android:layout_below="@+id/mesimeriano"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">>
+
+        <TextView
+            android:id="@+id/wraapog"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/plaisioprefs"
+            android:paddingTop="17dp"
+            android:paddingLeft="15dp"
+            android:hint="ΩΡΑ ΑΠΟΓΕΥΜΑΤΙΝΟΥ:"
+            android:textColor="@color/textColorPrimary"
+            android:textColorHint="@color/textColorPrimary"
+            android:textSize="15dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/koubiapog"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/koympismall"
+
+            android:textColor="@color/textColorPrimary"
+            android:textSize="12dp">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bradino"
+        android:layout_width="313dp"
+        android:layout_height="68dp"
+        android:layout_below="@+id/apogeymatino"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/wralaunch"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/plaisioprefs"
+            android:paddingTop="17dp"
+            android:paddingLeft="15dp"
+            android:hint="ΩΡΑ ΒΡΑΔΙΝΟΥ:"
+            android:textColor="@color/textColorPrimary"
+            android:textColorHint="@color/textColorPrimary"
+            android:textSize="15dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/koubilaunch"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/koympismall"
+
+            android:textColor="@color/textColorPrimary"
+            android:textSize="12dp"></Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nero"
+        android:layout_width="317dp"
+        android:layout_height="85dp"
+        android:layout_below="@+id/bradino"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/neronoti"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/plaisioprefs"
+            android:paddingTop="17dp"
+            android:paddingLeft="15dp"
+            android:hint="ΕΙΔΟΠΟΙΗΣΗ ΝΕΡΟΥ"
+            android:textColor="@color/textColorPrimary"
+            android:textColorHint="@color/textColorPrimary"
+            android:textSize="15dp">
+
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/neronotibtn"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="70dp"
+            android:button="@drawable/neronotich"></CheckBox>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/homerythmiseis"
+        android:layout_width="70dp"
+        android:layout_height="61dp"
+        android:layout_below="@+id/nero"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@+id/saverythmiseis"
+        android:layout_toRightOf="@+id/saverythmiseis"
+        android:background="@drawable/home" />
+
+    <Button
+        android:id="@+id/saverythmiseis"
+        android:layout_width="145dp"
+        android:layout_height="47dp"
+        android:layout_below="@+id/nero"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/savebtn" />
+
+
+</RelativeLayout>

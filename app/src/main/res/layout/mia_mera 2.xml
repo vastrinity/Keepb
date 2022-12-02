@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="270dp"
+    android:layout_height="328dp"
+    android:background="@color/Background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/listdays"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/merav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:hint="Imera"
+
+        android:paddingLeft="8dp"
+        android:textColor="@color/textColorPrimary"
+        android:textColorHint="@color/textColorPrimary"
+        android:textSize="18sp" />
+
+
+        <LinearLayout
+
+            android:id="@+id/ola"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="23dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ΓΕΥΜΑ"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="12dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ΠΡΩΙΝΟ"
+
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ΔΕΚΑΤΙΑΝΟ"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ΜΕΣΗΜΕΡΙΑΝΟ"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ΑΠΟΓΕΥΜΑΤΙΝΟ"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="12dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ΒΡΑΔΥΝΟ"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="12dp">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/rigthtimecol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ΣΩΣΤΗ ΩΡΑ"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/breakTimev"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="12dp" />
+
+
+                <TextView
+                    android:id="@+id/decTimev"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="12dp" />
+
+
+                <TextView
+                    android:id="@+id/mesiTimev"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="12dp" />
+
+
+                <TextView
+                    android:id="@+id/apogTimev"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/launchTimev"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="12dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rightdietcol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ΔΙΑΤΡΟΦΗ"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/textColorPrimary"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/breakwhatv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/decwhatv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/mesiwhatv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/apogwhatv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/launchwhatv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:textSize="12dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="214dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="27dp"
+            android:orientation="vertical">
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EXTRAS:"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@color/textColorPrimary"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/Nerobtnv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nerobtn"
+                android:textColor="@color/textColorPrimary"
+                android:textColorHint="@color/textColorPrimary"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/alcoolbtnv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="alcoolbtnv"
+                android:textColor="@color/textColorPrimary"
+                android:textColorHint="@color/textColorPrimary"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/gymbtnv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="gymbt"
+                android:textColor="@color/textColorPrimary"
+                android:textColorHint="@color/textColorPrimary"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/ratingBarYpnosv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="ratingBarYpnos"
+                android:textColor="@color/textColorPrimary"
+                android:textColorHint="@color/textColorPrimary"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/cocav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColorPrimary"
+                android:textColorHint="@color/textColorPrimary"
+                android:textSize="12dp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/epipleonv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ola"
+            android:layout_marginLeft="27dp"
+            android:layout_marginBottom="10dp"
+            android:hint="epipleon"
+            android:textColor="@color/textColorPrimary"
+            android:textColorHint="@color/textColorPrimary"
+            android:textSize="12dp" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

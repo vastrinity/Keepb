@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
+    tools:context=".UpMetrisi">
+
+
+
+    <RelativeLayout
+        android:id="@+id/MetrisiLayout"
+        android:layout_width="268dp"
+        android:layout_height="407dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/metrisi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/dateu"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+
+            android:gravity="center"
+            android:inputType="text"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.194"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.188" />
+
+        <EditText
+            android:id="@+id/kilau"
+            android:layout_width="59dp"
+            android:layout_height="46dp"
+            android:layout_above="@+id/liposu"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+
+            android:layout_marginBottom="14dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            android:textColor="@color/textColorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.006"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/date"
+            app:layout_constraintVertical_bias="0.011" />
+
+        <EditText
+            android:id="@+id/liposu"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ygrau"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+
+            android:layout_marginBottom="13dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            android:textColor="@color/textColorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kila"
+            app:layout_constraintVertical_bias="0.074" />
+
+        <EditText
+            android:id="@+id/ygrau"
+            android:layout_width="59dp"
+            android:layout_height="46dp"
+            android:layout_above="@+id/mysu"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+
+            android:layout_marginBottom="13dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            android:textColor="@color/textColorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.159"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.477" />
+
+        <EditText
+            android:id="@+id/mysu"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/met_ageu"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="15dp"
+
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            android:textColor="@color/textColorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.155"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ygra"
+            app:layout_constraintVertical_bias="0.026" />
+
+        <EditText
+            android:id="@+id/met_ageu"
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/level_fatu"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginEnd="304dp"
+            android:layout_marginRight="304dp"
+
+            android:layout_marginBottom="13dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            android:textColor="@color/textColorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mys"
+            app:layout_constraintVertical_bias="0.109" />
+
+        <EditText
+            android:id="@+id/level_fatu"
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="304dp"
+            android:layout_marginRight="304dp"
+
+            android:layout_marginBottom="2dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal"
+            android:textColor="@color/textColorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/met_age"
+            app:layout_constraintVertical_bias="0.637" />
+
+        <Button
+            android:id="@+id/datebtnu"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#00FFFFFF"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/date"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.168" />
+    </RelativeLayout>
+
+    <Button
+            android:id="@+id/saveu"
+            android:layout_width="143dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="286dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="37dp"
+            android:background="@drawable/savebtn"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.858"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/MetrisiLayout"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+

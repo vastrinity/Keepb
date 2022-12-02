@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
+    tools:context=".enter">
+
+    <Button
+        android:id="@+id/signinBtn"
+        android:layout_width="189dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="152dp"
+        android:background="@drawable/button1"
+        android:text="sign in"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="189dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/button1"
+        android:text="Register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signinBtn" />
+
+    <Button
+        android:id="@+id/DeletAccountBtn"
+        android:layout_width="189dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/button1"
+        android:text="delete account"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerBtn" />
+</androidx.constraintlayout.widget.ConstraintLayout>
